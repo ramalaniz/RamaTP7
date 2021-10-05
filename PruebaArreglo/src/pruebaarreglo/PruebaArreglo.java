@@ -16,6 +16,15 @@ public class PruebaArreglo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int listaUnidimensional[] = {03, 10, 20, 25, 26, 19};
+        Arreglo.sumarLista(listaUnidimensional);
+        
+        int listaBidimensional[][] = {{27, 11, 59},{3, 35, 9}};
+        Arreglo.buscarMayor(listaBidimensional);
+        
+        Arreglo.cuentaVocales("supercalifragilisticoespialdioso");
+       
+        Arreglo.cuentaCaracter("otorrinolaringologo", 'o');
     }
     
 }
